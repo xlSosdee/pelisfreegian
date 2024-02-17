@@ -203,10 +203,9 @@ footer {
 }
 
 .footer-content ul li a {
-    color: #ffffff; /* Cambia el color de los iconos a blanco */
-    font-size: 15px; /* Ajusta el tamaño de los íconos */
-    margin-right: 10px;
-	margin-top: 120px; /* Añade un margen derecho para separar los iconos */
+    color: #ffffff; 
+    font-size: 15px; 
+    margin-right: 10px;	
 }
 
 /* ---- ----- ----- Media Queries ----- ----- ----- */
