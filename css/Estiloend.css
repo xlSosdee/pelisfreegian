@@ -213,6 +213,52 @@ footer {
 	color: rgb(188, 25, 25);
 }
 
+
+/* Estilos CSS */
+.user-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.user-btn i {
+    font-size: 1.2rem;
+    color: #333;
+    margin-left: 10px;
+}
+
+/*ICONO DE USUARIO*/
+.lista-desplegable {
+  display: none;
+  position: absolute;
+  background-color: #141414;
+  color:#aaa;
+  
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.lista-desplegable ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+.lista-desplegable ul li {
+  padding: 12px;
+  cursor: pointer;
+  display: block;
+}
+
+.lista-desplegable ul li:hover {
+	color: rgb(188, 25, 25);
+}
+  
+  /* Añadimos esta regla para mostrar los elementos de la lista uno debajo del otro */
+  
+
+
 /* ---- ----- ----- Media Queries ----- ----- ----- */
 @media screen and (max-width: 800px) {
 	header .logo {
